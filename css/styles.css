@@ -1,0 +1,583 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Estilos para la pagina del Currículum Vitae */
+.contenedoralfa {
+    background-color: white;
+    height: 100vh;
+    width: 100%;    
+}
+.contenedor-one {
+    background-color: lightgray;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+.contenedor-one h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.titulos-contenedores {
+    background-color: gray;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;   
+    margin: 10px 10px;
+}
+.contenidos-cv {
+    background-color: rgba(131, 127, 127, 0.384);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 13px 10px;
+}
+.contenidos-cv__datos li p {
+    display: inline-block;
+    margin: 1px;
+}
+.contenidos-cv__datos-in {
+    color: blue;
+    font-weight: bold; 
+    text-decoration: underline;
+}
+.contenidos-cv__experiencia li p {
+    display: inline-block;
+    margin: 1px;
+}
+.contenidos-cv__experiencia-in {
+    color: green;
+    font-weight: bold; 
+    text-decoration: none
+}
+.contenidos-cv__educacion li p {
+    display: inline-block;
+    margin: 1px;
+}
+.contendor-two {
+    background-color: lightgray;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+.subtitulos-contenedores {
+    background-color: gray;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;   
+    margin: 10px 10px;
+}
+.contenedor-final {
+    background-color: rgba(131, 127, 127, 0.384);
+    height: 5px;
+    margin: 13px 10px;
+}
+.home-button {
+    align-items: center;
+    border: 2px groove purple;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+.home-button img {
+    height: 32px;
+    width: 32px;
+}
+.home-button:hover {
+    background-color: rgba(109, 196, 196, 0.952);
+    border: 2px ridge orange;
+}
+/* Estilos para la pagina del Conoce Medellín */
+.contenedormed {
+    background-color:white;
+    border: 2px black;
+    width: auto;
+}
+.contenedormed-pt1 {
+    background-color: lightgray;
+    height: 620px;
+    margin-bottom: 6px;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: auto;
+}
+.contenedormed-pt1 h1 {
+    color: #4d2885;
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    margin: 0px 10px 25px 0px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.contenedormed-pt1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-right: 12px;
+    text-align: justify;
+}
+.contenedormed-pt1__elementos {
+    display: inline-flex;
+}
+.contenedormed-pt1__imagen {
+    height: 270px;
+    width: 250px;
+}
+.titulo-lugar__pt1 {
+    background-color:#6B8E23;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;   
+    height: 25px;
+    width: 1083px;
+}
+.titulo-lugar__pt1 p {
+    margin-left: 7px;
+    margin-top: 1px;
+}
+.titulo-lugar__pt1-info {
+    color: black;
+    font-weight: lighter;
+    font-size: medium;
+    text-align: justify;
+}
+.titulo-lugar__pt1-1 {
+    background-color:#6B8E23;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px;   
+    height: 25px;
+    width: 99.5%;
+}
+.titulo-lugar__pt1-1 p {
+    margin-left: 7px;
+    margin-top: 1px;
+}
+.contenedormed-pt2 {
+    background-color: lightgray;
+    border-left: 2px solid gray;
+    height: 850px;
+    margin-bottom: 7px;
+    width: auto;
+}
+.contenedormed-pt2__imagenes {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 1px;
+}
+.contenedormed-pt2__imagen {
+    height: 270px;
+    margin-left: 7px;
+    width: 250px;
+}
+.contenedormed-pt2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.titulo-lugar__pt2-1 {
+    background-color:#6B8E23;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 25px;
+    width: 98.7%;
+}
+.titulo-lugar__pt2-1 p {
+    font-size: 20px;
+    margin-left: 0.5px;
+    padding-top: 2px;
+}
+.contenedormed-pt3 {
+    display: inline-flex;
+    background-color: lightgray;
+    height: 670px;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    padding-top: 10px;
+    position: relative;
+    width: auto;
+}
+.contenedormed-pt3__contenido {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.contenedormed-pt3__contenido p {
+    margin-bottom: 15px;
+}
+.contenedormed-pt3__contenido h3 {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.contenedormed-pt3__video iframe {
+    margin-top: 15px;
+} 
+.creditos {
+    font-style: italic;
+    font-size: 14px;
+    position: absolute;
+    top: 630px;
+    left: 10px;
+} 
+/* Estilos para la pagina Museos de Londres */
+.contenedorppal-museos {
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+}
+.contenedormuseo1 {
+    background: #4cb2aa;
+    height: 460px;
+    margin-bottom: 5px;
+}
+.contenedormuseo1 h1 {
+    align-items: center;
+    color: #263632;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contenedormuseo1 p {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    margin-bottom: 17px;
+    padding: 0 10%;
+}
+.contenedormuseo1 nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contenedormuseo1 ul li {
+    color: #263632;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contenedormuseo1 ul li a {
+    color: #263632;
+    cursor: pointer;
+}
+.contenedor-museobritanico {
+    background: white;
+    border: 12px solid #e74b05;
+    display: inline-flex;
+    height: 290px;
+    margin-left: 21%;
+    margin-right: 20%;
+    width: 57.8%;
+}
+.contenedor-museobritanico__img {
+    border: 12px solid #e74b05;
+    height: 204px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.contenedor-museobritanico__img img {
+    border: 12px solid #ffa82d;
+    height: 180px;
+    width: 200px;
+}
+.contenedor-museobritanico__textos h2 {
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.contenedor-museobritanico__textos p {
+    font-size: 17px;
+    margin-left: -38px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 114%;
+}
+.contenedormuseo2 {
+    background: #4cb2aa;
+    height: 332px;
+    margin-bottom: 5px;
+}
+.contenedor-museotate {
+    background: white;
+    border: 12px solid #fbae29;
+    display: inline-flex;
+    height: 290px;
+    margin-left: 21%;
+    margin-right: 20%;
+    margin-top: 20px;
+    width: 57.8%;
+}
+.contenedor-museotate__img {
+    border: 12px solid #fbae29;
+    height: 204px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.contenedor-museotate__img img {
+    border: 12px solid #e74b05;
+    height: 180px;
+    width: 200px;
+}
+.contenedor-museotate__textos h2 {
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.contenedor-museotate__textos p {
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 90%;
+}
+.contenedormuseo3-4 {
+    background: #4cb2aa;
+    height: 610px;
+}
+.contenedor-museonationalg {
+    background: white;
+    border: 12px solid #e74b05;
+    display: inline-flex;
+    height: 270px;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: 20px;
+    width: 63%;
+}
+.contenedor-museonationalg__img {
+    border: 12px solid #e74b05;
+    height: 194px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.contenedor-museonationalg__img img {
+    border: 12px solid #ffa82d;
+    height: 170px;
+    width: 200px;
+}
+.contenedor-museonationalg__textos h2 {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.contenedor-museonationalg__textos p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 95%;
+}
+.contenedor-museonationalhm {
+    background: white;
+    border: 12px solid #fbae29;
+    display: inline-flex;
+    height: 270px;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: 20px;
+    width: 63%;
+}
+.contenedor-museonationalhm__img {
+    border: 12px solid #fbae29;
+    height: 194px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.contenedor-museonationalhm__img img {
+    border: 12px solid #e74b05;
+    height: 170px;
+    width: 200px;
+}
+.contenedor-museonationalhm__textos h2 {
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.contenedor-museonationalhm__textos p {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 92%;
+}
+.home-button__museos {
+    align-items: center;
+    border: 2px groove purple;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50px;
+}
+.home-button__museos img {
+    height: 32px;
+    width: 32px;
+}
+.home-button__museos:hover {
+    background-color: rgba(109, 196, 196, 0.952);
+    border: 2px ridge orange;
+}
+/* Estilos para la pagina Tablas de Calendario */
+.contenedor-tablascalendario {
+    background: #93e3fb;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 850px;
+}
+.contenedor-tablascalendario h1 {
+    margin-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contenedor-enero {
+    align-items: center;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    margin: 0 20px 15px 20px;
+    width: 97.5%;
+}
+.contenedor-enero h4 {
+    font-style: italic;
+    letter-spacing: 5px;
+    margin-bottom: 3px;
+    margin-left: 32px;
+}
+.contenedor-enero__dias {
+    width: 25%;
+}
+.contenedor-enero ol {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.contenedor-enero ol li {
+    margin: 2px 7px 5px 5px;
+}
+.primer-dia {
+    grid-column-start: 5;
+}
+.nombres-dias {
+    font-weight: bold;
+    text-align: center;
+}
+.contenedor-febrero {
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    margin: 0 20px 15px 20px;
+    width: 97.5%;
+}
+.contenedor-febrero h4 {
+    letter-spacing: -0.5px;
+    margin-left: 160px;
+}
+.contenedor-febrero ol {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+.contenedor-febrero ol li {
+    margin: 2px 7px 5px 5px;
+    font-size: 20px;
+}
+#nombres-dias__feb {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+.contenedor-marzo {
+    align-items: center;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px 13px 20px;
+    height: 270px;
+    width: 97.5%; 
+}
+.contenedor-marzo h4 {
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-bottom: 3px;
+    margin-right: 145px;
+    margin-top: -10px;
+}
+.contenedor-marzo ol {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    border: 1px solid black;
+}
+.contenedor-marzo ol li {
+    margin: 2px 7px 5px 5px;
+    font-size: 10px;
+    border: 1px solid black;
+}
+.contenedor-marzo__tabla {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+.contenedor-marzo__tabla-encabezado {
+    border: 1px solid black;
+    font-size: 14px;
+    height: 20px;
+}
+.contenedor-marzo__tabla-celdas {
+    border: 1px solid black;
+    font-size: 12px;
+    height: 40px;
+    width: 40px;
+}
+.contenedor-marzo__tabla-celdas a {
+    margin-bottom: 23px;
+    margin-left: 2px;
+    display: flex;
+}
+

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.contenedor-ppal {
+    align-items: center;
+    background-image: url('https://fondosmil.com/th/33987.jpg');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.contenedor-ppal h2 {
+    align-items: center;
+    color: white;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 150px;
+}
+.contenedor-items {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    border: 2px solid palevioletred;;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: center;
+    margin: 25px;
+    width: 150px;
+}
+.contenedor-items:hover {
+    background-color: blue;
+    border: 2px solid goldenrod;
+}
+.contenedor-items a {
+    color: white;
+    cursor: pointer;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.contenedor-items img {
+    height: 80px;
+    margin: 15px 0px 0px 5px;
+    width: auto;
+}
+.contenedor-items img:hover {
+    height: 90px;
+    width: 100px;
+}
